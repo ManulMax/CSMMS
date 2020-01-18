@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STOCK DETAILS</title>
+        <link rel="stylesheet" href="../css/stock.css" type="text/css">
+        <link href="../css/Hover-master/css/hover-min.css" rel="stylesheet">
+
+        <style>
+            input[type=text], select {
+              width: 90%;
+              padding: 12px 20px;
+              margin: 8px 50px 10px 50px;
+              display: inline-block;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+            }
+            
+            input[type=submit] {
+              width: 26%;
+              background-color:#0671a7;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 30px 10px 50px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+            
+            input[type=submit]:hover {
+              background-color: #004d66;
+            }
+            
+            /* div {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            } */
+            </style>
+
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="topbar">
+                <a href="operator.html"><img src="../img/backarr.png" width="30px" height="30p" class="hvr-float shadow"></a> 
+                <h1 align="center">   STOCK</h1>
+            </div>
+            <!-- top bar -->
+            <h3>_________________EDIT STOCK DETAILS HERE________________</h3>
+
+            <div class="form">
+              <form action="/action_page.php">
+
+                <label for="fname">ITEM ID</label>
+                <input type="text" id="fname" name="firstname" placeholder="Item ID..." required>
+            
+                <label for="lname">ITEM NAME</label>
+                <input type="text" id="lname" name="lastname" placeholder="Item Name...">
+
+                <label for="lname">TYPE</label>
+                <input type="text" id="lname" name="lastname" placeholder="Item Type...">
+
+                <label for="lname">QUANTITY</label>
+                <input type="text" id="lname" name="lastname" placeholder="Item Quantity...">
+
+                <label for="lname">UNIT PRICE</label>
+                <input type="text" id="lname" name="lastname" placeholder="Unit Price...">
+                         
+                <input type="submit" value="Search">
+                <input type="submit" value="Update">
+                <input type="submit" value="Delete">
+              </form>
+            </div>
+        </div>
+        <!-- page wrapper -->
+    </body>
+</html>
